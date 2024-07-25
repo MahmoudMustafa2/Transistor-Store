@@ -12,7 +12,11 @@
 }
 body.darkmode{
     background-color:#ffffffd8;
-    color:#000;
+    color:#000; 
+    input{
+        background-color: #b1a6a6cc;
+        color: #000;
+    }
 }
 
 *{
@@ -22,6 +26,7 @@ body.darkmode{
 body{
     background-color: var(--background-color);
     color: var(--font-color);
+
     font-family: system-ui, sans-serif;
 }
 /*End global code*/
