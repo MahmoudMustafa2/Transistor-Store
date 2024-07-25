@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ELMustafa Phone</title>
+</head>
+<body>
+    <!--ده اللي شايل كل حاجه-->
+    <div class="container">
+            <!--ده مقدمة الموقع-->
+<div class="header">
+    <h2>ELMustafa Phone Store</h2>
+    <p>Product Management System</p>
+</div>
+
+   
+
+
+
+
+
+<!--ده المدخلات-->
+<div class="inputs">
+<input type="text" id="title" placeholder="Title">
+<div class="theprice">
+    <input  onkeyup="gettotal()"   type="number" id="price" placeholder="price">
+    <input  onkeyup="gettotal()"   type="number" id="taxes" placeholder="Taxes">
+    <input  onkeyup="gettotal()"   type="number" id="ads" placeholder="Ads">
+    <input  onkeyup="gettotal()"  type="number" id="discount" placeholder="Discount">
+    <small   id="total">2000</small>
+</div>
+ <input type="number" id="count" placeholder="Count">
+    <input type="text" id="category" placeholder="Category">
+    <button id="submit">Create</button>
+</div>
+    
+
+
+
+
+<!--ده المخرجات-->
+<div class="outputs">
+<div class="searchblock">
+<input type="text" id="search" placeholder="Search">
+<div class="search-buttons">
+<button id="searchtitle">Search By Title</button>
+<button id="searchcategory">Search By Category</button>
+</div>
+</div>
+<div id="deleteAll">
+
+</div>
+
+<!--table-->
+<table class="table">
+     <!-- اول صف-->
+    <tr>
+           <!-- دى الاعمده الموجودة داخل اول صف-->
+        <th>ID</th>             
+        <th>Title</th>
+        <th>Price</th>
+        <th>Taxes</th>
+        <th>Ads</th>
+        <th>Descount</th>
+        <th>Total</th>
+        <th>Category</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+
+
+    <tbody id="tbody">
+
+
+
+    </tbody>
+</table>
+
+
+</div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

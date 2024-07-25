@@ -1,0 +1,112 @@
+/*Start global code*/
+:root{
+    --font-color:#fff;
+    --font-size:16px;
+    --background-color:#222;
+    --cell-background:#111;
+    --cell-background-foucs:#000;
+    --btn-background-color:#0003b198;
+    --btn-background-color-hover:#0400ff;
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: system-ui, sans-serif;
+}
+/*End global code*/
+.container{
+    width: 80%;
+    margin:auto;
+}
+/*Start header*/
+
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+/*End header*/
+
+
+/*Start inputs*/
+input{
+    width: 100%;
+    height: 30px;
+    outline:none;
+    border:none;
+    background-color: var(--cell-background);
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color:var(--font-color);
+}
+input:focus{
+    background-color: var(--cell-background-foucs);
+    scale:1.06 ;
+
+}
+.theprice input{
+width: 20%; 
+}
+#total{
+    align-self: center;
+    background-color: rgb(156, 0, 0);
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "Total:  ";
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--btn-background-color);
+    color: var(--font-color);
+    border-radius: 20px;
+}
+button:hover{
+    background-color: var(--btn-background-color-hover);
+letter-spacing: 1px;
+transition: 0.5s;
+border: 1px solid white;
+}
+
+#deleteAll{
+    margin: 20px 0;
+}
+/*End inputs*/
+
+
+/*Start outputs*/
+.search-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.search-buttons button{
+    width:45%;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table tr{
+    text-transform: uppercase;
+}
+table th,td{
+    padding: 5px;
+}
+/*End outputs*/
+
