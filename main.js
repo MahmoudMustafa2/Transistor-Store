@@ -223,3 +223,12 @@ function searchindata(value){         //دي الدالة نفسها اللي ب
      
 
 }
+
+//darkmode 
+document.addEventListener('DOMContentLoaded', (event) => {
+  const toggleButton = document.getElementById('darkmode');
+  
+  toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('darkmode');
+  });
+});

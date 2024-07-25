@@ -10,7 +10,10 @@
 
 
 }
-
+body.darkmode{
+    background-color:#ffffffd8;
+    color:#000;
+}
 
 *{
     margin: 0;
@@ -33,6 +36,15 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0;
+}
+#darkmode{
+    cursor: pointer;
+}
+#dimg{
+    width: 4%;
+    height: 4%;
+    margin-top:0.5rem;
+
 }
 
 /*End header*/
